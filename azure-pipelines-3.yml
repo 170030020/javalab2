@@ -1,0 +1,5 @@
+- task: CmdLine@2
+  inputs:
+    script: |
+      java.c  sum.java
+      javasum
